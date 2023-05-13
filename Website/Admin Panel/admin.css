@@ -1,0 +1,122 @@
+
+body{
+    background-color: #f4f3ef;
+}
+.panel{
+    background-color: rgb(0, 0, 0);
+    height: 700px;
+   position: absolute;
+   width: 200px;
+}
+.panel h3{
+    font-size: 22px;
+    margin-top: 60px !important;
+    margin-bottom: 40px;
+    color: white;
+    height:20px;
+}
+.panel a{
+    text-decoration: none;
+}
+.trainer,.package{
+    cursor: pointer;
+    color: white;
+}
+.panel div p{
+    cursor: pointer;
+    color: white;
+}
+.trainer-drop,.package-drop{
+    margin-left: 20px;
+    width: 180px;
+    display: none;
+    background-color: rgb(170, 170, 170);
+}
+.trainer-drop a,.package-drop a{
+    text-decoration: none;
+    color: white;
+}
+
+.admin div{
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+}
+.admin div p{
+    padding-top: 5px;
+    padding-right: 20px;
+    font-weight: bold;
+    color: rgb(133, 133, 133);
+}
+.admin{
+    text-align: end;
+    padding-top: 20px;
+}
+.admin i{
+    font-size: 25px;
+    padding-right: 5px;
+}
+.admin-dash{
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    right: 30px;
+    top: 60px;
+    justify-content: left !important;
+    padding-top: 20px;
+    border-radius: 5%;
+    display: none;
+}
+.admin-dash input{
+    
+    border: none;
+    background-color:rgb(255, 255, 255);
+}
+.admin-dash ul li{
+    list-style: none;
+    color: rgb(255, 255, 255);
+}
+hr{
+    width:85%;
+    position: absolute;
+    left: 205px;
+}
+.Dashbaord-h5{
+    margin-left: 200px;
+    width: 80%;;
+}
+
+.bg-clr #div{
+    background-color: white;
+    border: 2px solid rgb(249, 249, 249);
+    width: 300px;
+    height: 100px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: space-between !;
+}
+.bg-clr #div img{
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+}
+.bg-clr #div div{
+    display: block;
+    padding-top: 20px;
+    padding-left: 120px;
+}
+.bg-clr #div div p{
+    font-size: 18px;
+    height: 10px;
+}
+.bg-clr #div i{
+    margin-left: 12px;
+    margin-top: 8px;
+    font-size: 45px;
+    color: rgb(2, 2, 219);
+}
+.bi-gift-fill{
+    color:coral !important;
+}

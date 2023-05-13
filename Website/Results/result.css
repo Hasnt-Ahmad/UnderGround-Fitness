@@ -1,0 +1,27 @@
+.bg{
+    background-color: rgb(0, 0, 0);
+    
+}
+.train h5{
+    text-align: center;
+    margin-top: 50px;
+
+}
+.train h3,p{
+    text-align: center;
+    
+}
+iframe{ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+footer{
+    background-color: black;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+footer .container{
+   padding-top: 30px;
+}

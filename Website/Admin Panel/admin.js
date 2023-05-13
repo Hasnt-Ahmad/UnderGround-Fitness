@@ -1,0 +1,12 @@
+$(document).ready(function(){
+    $(".admin-dash").css("display","none")
+    $(".trainer").click(function(){
+        $(".trainer-drop").slideToggle("slow");
+      });
+    $(".package").click(function(){
+        $(".package-drop").slideToggle("slow");
+      });
+    $("#adminDiv").click(function(){
+      $(".admin-dash").slideToggle("slow");
+    });
+    });

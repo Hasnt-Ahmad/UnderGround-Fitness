@@ -1,0 +1,200 @@
+.navbar{
+
+    height: 100px;
+   
+}
+.bg{
+    background-color: rgb(0, 0, 0);
+    
+}
+.active{
+    color: red !important;
+    border-bottom: 1px solid red;
+
+}
+.nav-link:hover{
+    color: red !important;
+    border-bottom: 1px solid #ff0000;
+}
+.video{
+    background-color: black;
+}
+.train h5{
+    text-align: center;
+    margin-top: 50px;
+
+}
+.train h3{
+    text-align: center;
+    
+}
+.process h5{
+    margin-left: 90px;
+}
+.process i{
+    font-size: 60px;
+    color: red;
+    margin-left: 150px;
+}
+.process img{
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    height: 70px;
+}
+.fa-dumbbell{
+    margin-top: 25px;
+    margin-bottom: 5px;
+    margin-left: 130px !important;
+}
+.fa-child-reaching{
+    margin-bottom: 30px;
+}
+
+
+.image img{
+    height: 240px;
+}
+
+.swiper-button-next{
+    margin-top: 600px !important;
+}
+.swiper-button-prev{
+    margin-top: 600px !important;
+}
+.swiper-pagination{
+    display:none ;
+}
+.program{
+    background-color: rgb(243, 243, 243);
+    width: 350px;
+    height:500px !important;
+    margin-bottom: 40px;
+    border: 3px solid rgb(221, 221, 221);
+    
+}
+.program p{
+    margin-left: 10px;    
+}
+.p{
+    font-weight:700;
+    font-size: 20px;
+}
+.program div{
+    margin-left: 30px;
+    background-color: rgb(232, 232, 232);
+    width: 300px;
+    
+}
+.program div p{
+    text-align: center;
+    color: rgb(134, 134, 134);
+}
+.fist{
+    margin-left: 150px;
+}
+.bi-star-fill{
+    color: yellow;
+    
+}
+.result-p{
+    text-align: center;
+}
+
+.trainers{
+    background-color: rgb(0, 0, 0);
+    height: 450px;
+    width: 420px !important;
+    border-radius: 30px;
+    margin-left: 2px;
+    margin-bottom: 20px !important;
+}
+.trainer-col{
+    width: 80% !important;
+}
+.pic{
+    margin-top: 50px;
+    background-color: red;
+    height: 145px;
+    width: 145px !important;
+    border-radius: 50%;
+    margin-left: 35%;
+    
+    
+}
+.pic img{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+
+.clr{
+    background-color: red;
+}
+
+footer{
+    background-color: black;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+footer .container{
+   padding-top: 30px;
+}
+.login-form{
+    padding-left: 20px;
+}
+.login-form i{
+    font-size: 25px;
+}
+.login-form input{
+    border: none;
+    border-bottom: 1px solid rgb(183, 183, 183);
+    width: 350px;
+}
+.login-form input:focus{
+    outline: none;
+    border-bottom: 1px solid red;
+}
+.modal-content{
+    height: 300px;
+}
+.login-btn{
+    background-color: rgb(9, 9, 75);
+    color: white;
+    width: 120px;
+    height: 50px;
+    margin-left: 20px;
+    align-items: center;
+    padding: 10px;
+}
+.create-btn{
+    background-color: rgb(190, 190, 190);
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin-left: 20px;
+    align-items: center;
+    padding: 10px;
+    margin-right: 40px;
+}
+.login-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-primary{
+    background-color: rgb(190, 190, 190) !important;
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin-right: 60px;
+    border: none !important;
+}
+.create-form{
+    width:700px;
+}
+.create-form{
+    height: 500px;
+}

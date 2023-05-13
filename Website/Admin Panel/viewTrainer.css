@@ -1,0 +1,44 @@
+.panel{
+    background-color: rgb(0, 0, 0);
+    height: 700px;
+   position: absolute;
+   width: 200px !important;
+}
+.panel h3{
+    font-size: 22px;
+    margin-top: 60px !important;
+    margin-bottom: 40px;
+    color: white;
+    height:20px;
+}
+.trainer{
+    cursor: pointer;
+    color: white;
+}
+.panel div p{
+    cursor: pointer;
+    color: white;
+}
+.trainer-drop,.package-drop{
+    margin-left: 20px;
+    width: 180px;
+    display: none;
+    background-color: rgb(170, 170, 170);
+}
+.trainer-drop a,.package-drop a{
+    text-decoration: none;
+    color: white;
+}
+table{
+    margin-left:220px !important;
+    width:80% !important;
+}
+.table-package{
+    width: 50% !important;
+}
+.btn{
+    margin-left: 300px;
+}
+.panel a{
+    text-decoration: none;
+}

@@ -1,0 +1,80 @@
+
+.panel{
+    background-color: rgb(0, 0, 0);
+    height: 700px;
+   position: absolute;
+   width: 200px;
+}
+.panel a{
+    text-decoration: none;
+}
+.panel h3{
+    font-size: 22px;
+    margin-top: 60px !important;
+    margin-bottom: 40px;
+    color: white;
+    height:20px;
+}
+.trainer,.package{
+    cursor: pointer;
+    color: white;
+}
+.panel div p{
+    cursor: pointer;
+    color: white;
+}
+.trainer-drop,.package-drop{
+    margin-left: 20px;
+    width: 180px;
+    display: none;
+    background-color: rgb(170, 170, 170);
+}
+.trainer-drop a,.package-drop a{
+    text-decoration: none;
+    color: white;
+}
+.add-trainer{
+    position: absolute;
+    left: 200px;
+    width: 80%;
+}.add-trainer h1{
+    text-align: center;
+    margin-top: 40px;
+}
+.form{
+    position: absolute;
+    top: 140px;
+    left: 200px;
+    width: 80%;
+    text-align: center;
+
+}
+.form form input{
+
+    border: none;
+    border-bottom: 1px solid black;
+    width: 60%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+input:focus,textarea:focus{
+    outline: none;
+    border-bottom: 3px solid black !important;
+}
+input::placeholder{
+    margin-bottom: 20px;
+}
+input[type="submit"]{
+    background-color: #53c553;
+    border-bottom: none !important;
+    width: 20% !important;
+    margin-left: 270px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+input[type='file']{
+    border-bottom: none !important;
+    width: 220px !important;
+}
